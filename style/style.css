@@ -1,0 +1,749 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+/*! Start navbar  */ 
+
+.header {
+    background: linear-gradient(to right, #f9f1e7 55%, #fcf8f3 45%);
+    height: 180px;
+}
+
+.logo img {
+    margin-right: 36px;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    position: relative;
+}
+
+nav ul {
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 26px;
+    cursor: pointer;
+}
+
+
+nav ul .pr-line {
+    width: 10.83px;
+    height: 11.67px;
+    position: absolute;
+    left: 19.5%;
+    top: 58px;
+}
+
+nav ul .r-line {
+    position: absolute;
+    width: 10.83px;
+    height: 11.67px;
+    top: 58px;
+    left: 26%;
+}
+
+.nav-input {
+    width: 360px;
+    height: 45px;
+    padding-left: 30px;
+    border: none;
+}
+
+.search img {
+    width: 13.33px;
+    height: 13.33px;
+    position: absolute;
+    left: 38.8%;
+    top: 57px;
+}
+
+.favorite .heart {
+    width: 20.76px;
+    height: 17.85px;
+    margin: 0 47px 9px 90px;
+    cursor: pointer;
+}
+
+.favorite .basket {
+    width: 20.5px;
+    height: 11.5px;
+    margin: 0 70px 17px 27px;
+    cursor: pointer;
+}
+
+.favorite .dot1 {
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    right: 18.2%;
+    top: 65px;
+}
+
+.favorite .dot2 {
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    right: 18.8%;
+    top: 64.5px;
+}
+
+
+.favorite .img {
+    width: 40px;
+    height: 40px;
+}
+
+/* end navbar */
+
+.sofa-info {
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    bottom: 99px;
+    left: 42px;
+    padding: 55px;
+    width: 468px;
+    height: 497px;
+    border: 1px solid #eee;
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(31px);
+}
+
+.info h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: rgba(58, 58, 58, 1);
+}
+
+.info p {
+    color: rgba(137, 137, 137, 1);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.info button {
+    width: 374px;
+    height: 78px;
+    color: #eee;
+    background: rgba(232, 159, 113, 1);
+    border: 1px solid rgba(232, 159, 113, 1);
+    cursor: pointer;
+}
+
+.slider {
+    position: absolute;
+    /* top: 121px; */
+    bottom: 540px;
+    right: 8.7%;
+}
+
+.slider .r-slider {
+    background: #E89F71;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider .l-slider {
+    border-radius: 50%;
+    background: #E89F71;
+    opacity: 0.3;
+    margin-right: 9px;
+    cursor: pointer;
+}
+
+.slider .previous {
+    position: absolute;
+    left: 13px;
+    bottom: 24px;
+    width: 22px;
+    height: 14px;
+}
+
+.slider .next {
+    position: absolute;
+    right: 19px;
+    width: 8px;
+    height: 14px;
+    bottom: 25px;
+}
+
+.slide-dot {
+    width: 150px;
+    position: absolute;
+    left: 43.5%;
+    /* top: -41px; */
+    bottom: 548px;
+}
+
+.dots {
+    position: absolute;
+    top: 1px;
+    left: 5%;
+}
+
+.dots .main-dot {
+    margin-right: 20px;
+}
+
+.dots .dots2 {
+    margin: 0 20px;
+}
+
+.sofa .img1,
+.img3 {
+    height: 531px;
+}
+
+.sofa .img2 {
+    width: 898px;
+}
+
+.price {
+    padding: 30px;
+    position: absolute;
+    width: 294px;
+    bottom: 52px;
+    right: 8%;
+    height: 148px;
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(31px);
+}
+
+.price h5 {
+    position: absolute;
+    bottom: 18px;
+}
+
+.price img {
+    bottom: 27px;
+    position: absolute;
+    right: 35px;
+}
+
+/* Start about section */
+
+.about {
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.about-card {
+    display: flex;
+    gap: 14px;
+}
+
+.our_products>h2 {
+    text-align: center;
+    color: rgba(58, 58, 58, 1);
+}
+
+.products_card {
+    width: 295px;
+    height: 300px;
+    position: relative;
+    box-shadow: -6px 1px 8px 0px rgba(94, 94, 94, 0.45);
+}
+
+.products_card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.products_text {
+    width: 295px;
+    height: 130px;
+    position: absolute;
+    top: 300px;
+    background: #ffffff;
+    border: 1px solid #fff;
+    box-shadow: -6px 1px 8px 0px rgba(94, 94, 94, 0.45);
+}
+
+.products_text>h2 {
+    padding: 15px 15px 15px 15px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.products_text>p {
+    padding: 0px 15px 15px 15px;
+    font-size: 16px;
+    color: #999999;
+}
+
+.products_text p>span {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.products_label_sale {
+    background: #e97171;
+}
+
+.products_label_green {
+    background: rgba(46, 193, 172, 1);
+}
+
+.products_label {
+    align-items: center;
+    border-radius: 100%;
+    color: #fff;
+    display: flex;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    width: 48px;
+}
+
+
+.products_cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    height: 900px;
+    margin-top: 50px;
+}
+
+.our_products {
+    margin-top: 30px;
+    height: 1150px;
+}
+
+
+.cardAdd {
+    width: 285px;
+    height: 430px;
+    position: absolute;
+    z-index: 1;
+    background: black;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.add_hover_card {
+    width: 190px;
+    height: 100px;
+
+}
+
+.add_card button {
+    padding: 12px 59px;
+    background: white;
+    color: #e97171;
+    border: 1px solid #e97171;
+    cursor: pointer;
+
+}
+
+.share_like {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.share {
+    width: 94px;
+    height: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.like {
+    width: 94px;
+    height: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cardAdd:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.footer_cards_block {
+    width: 100%;
+    height: 70px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer_cards_block button {
+    border: 1px solid #e89f71;
+    background-color: #ffffff;
+    color: #e89f71;
+    padding: 22px 122px;
+    font-size: 16px;
+}
+
+.footer_cards_block button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+/* End products */
+
+/* Start rooms section */
+
+.about-room {
+    position: relative;
+}
+
+.rooms {
+    background: rgba(252, 248, 243, 1);
+}
+
+.rooms-info {
+    display: flex;
+}
+
+.rooms-text {
+    padding: 228px 40px 0 40px;
+    width: 400px;
+}
+
+.rooms-text h2 {
+    font-size: 30px;
+    color: rgba(58, 58, 58, 1);
+    padding-bottom: 15px;
+}
+
+.rooms-text p {
+    color: rgba(97, 97, 97, 1);
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.rooms-text button {
+    width: 250px;
+    height: 56px;
+    background: rgba(232, 159, 113, 1);
+    border: 1px solid rgba(232, 159, 113, 1);
+    color: #fff;
+    cursor: pointer;
+}
+
+.rooms-img img {
+    padding: 40px 0;
+    margin-right: 20px;
+}
+
+.rooms-img .chair {
+    padding-bottom: 135px;
+}
+
+.price-bed {
+    position: absolute;
+    width: 226px;
+    left: 33%;
+    bottom: 132px;
+    height: 122px;
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(3px);
+    padding: 12px 25px;
+}
+
+.bed-info {
+    color: rgba(97, 97, 97, 1);
+    display: flex;
+}
+
+.bed-info img {
+    padding: 0 5px;
+}
+
+.bed-text h3 {
+    color: rgba(58, 58, 58, 1)
+}
+
+.next-arrow {
+    position: absolute;
+    left: 50.4%;
+    bottom: 125px;
+    cursor: pointer;
+}
+
+.next-arrow .room-arrow {
+    position: absolute;
+    top: 18px;
+    left: 14px;
+}
+
+.slide-dot-rooms {
+    position: absolute;
+    display: flex;
+    right: 26.6%;
+    bottom: 79px;
+}
+
+.slide-dot-rooms .ellipse {
+    margin-right: 15px;
+}
+
+.room-dots .maindot {
+    position: absolute;
+    left: 6%;
+    bottom: 8px;
+}
+
+.slide-dot-rooms .gray-dots {
+    margin: 0 20px;
+}
+
+.next-slider {
+    position: absolute;
+    right: 4.7%;
+    bottom: 259px;
+    cursor: pointer;
+}
+
+.next-slider .room-line {
+    position: absolute;
+    top: 27px;
+    left: 36px;
+}
+
+/* End rooms section */
+
+
+/*  Start tips section */
+
+.tips-content {
+    position: relative;
+}
+
+.tips-cards {
+    display: flex;
+    padding: 40px;
+    box-shadow: -6px 1px 8px 0px rgb(94 94 94 / 45%);
+}
+
+.tips-cards .tips-arrow {
+    position: absolute;
+    bottom: 315.5px;
+    left: 2.5%;
+}
+
+.tips-arrow2 {
+    position: absolute;
+    right: 2.5%;
+    bottom: 316px;
+}
+
+.tips-cards .tips-circle {
+    position: absolute;
+    bottom: 283px;
+    left: 0%;
+    cursor: pointer;
+}
+
+
+.tips-circle2 {
+    position: absolute;
+    right: 0%;
+    bottom: 283px;
+    cursor: pointer;
+}
+
+.tips-content h2 {
+    text-align: center;
+    font-size: 36px;
+    color: rgba(58, 58, 58, 1);
+    padding: 40px 0;
+}
+
+.tips-cards .cards {
+    margin-right: 25px;
+}
+
+
+.tips-cards .cards h3,
+p {
+    padding: 25px 0;
+    color: #555;
+}
+
+.tips-dot {
+    width: 150px;
+    position: absolute;
+    left: 43.5%;
+    /* top: -41px; */
+    bottom: 15px;
+}
+
+.tips-main-dot {
+    position: absolute;
+    top: 8px;
+    left: 6%;
+}
+
+.dots-trick {
+    position: absolute;
+    bottom: 9px;
+}
+
+.dot-2nd {
+    margin: 0px 33px;
+}
+
+.dot-3rd {
+    margin-right: 17px;
+}
+
+.dot-4th {
+    margin-left: 12px
+}
+
+/*   End tips section */
+
+/* Start furniture section */
+
+.furniture {
+    position: relative;
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+
+.furniture-text p {
+    color: rgba(97, 97, 97, 1);
+}
+
+.furniture-text h2 {
+    color: rgba(58, 58, 58, 1);
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.furniture-img {
+    display: flex;
+}
+
+.furniture-cards-l {
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.furniture-cards-l {
+    padding: 7px;
+}
+
+.furniture-cards-l .photo {
+    padding-bottom: 81px;
+}
+
+.furniture-cards-l {
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.table {
+    position: absolute;
+    left: 50%;
+    bottom: 208px;
+}
+
+.img4 {
+    position: absolute;
+    right: 10.5%;
+    width: 230px;
+    top: 245px;
+}
+
+.img5 {
+    position: absolute;
+    right: 1%;
+    top: 138px;
+    width: 120px;
+}
+
+.img8 {
+    position: absolute;
+    right: 14.4%;
+    bottom: 168px;
+}
+
+.img9 {
+    position: absolute;
+    right: 0.5%;
+    bottom: 264px;
+    width: 180px;
+}
+
+/* Start footer section */
+.footer-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    position: relative;
+}
+
+.footer-line img {
+    width: 1300px;
+}
+
+.footer-list h4 {
+    padding: 20px 0;
+}
+
+.footer-list1 .call {
+    position: absolute;
+    left: 7%;
+    bottom: 117px;
+}
+
+.footer-list ul li {
+    padding: 10px 0;
+    color: #555;
+}
+
+.footer-list5 input {
+    width: 167px;
+    height: 46px;
+    padding: 12px;
+}
+
+.footer-list5 .squire {
+    cursor: pointer;
+    position: absolute;
+    top: 105px;
+}
+
+.footer-list5 .tg {
+    top: 120px;
+    position: absolute;
+    right: 3%;
+}
